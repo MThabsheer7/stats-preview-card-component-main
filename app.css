@@ -7,6 +7,20 @@
     --clr-stheads: hsla(0, 0%, 100%, 0.6);
 }
 
+body{
+    font-size: 1rem;
+    background-color: var(--clr-bg);
+    color: var(--clr-white);
+}
+
+h1,h2{
+    font-family: Inter;
+}
+
+.main-head{
+    font-size: 2.5rem;
+}
+
 .attribution {
     font-size: 11px; text-align: center; 
 }
