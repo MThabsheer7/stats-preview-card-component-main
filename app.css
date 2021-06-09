@@ -94,3 +94,32 @@ p{
     }
 }
 
+@media (min-width: 990px) {
+    .container{
+        margin: 8rem auto;
+        flex-direction: row-reverse;
+        align-items: center;
+        height: min-content;
+    }
+    .hero-img{
+        width: 60%;
+        height: 100%;
+    }
+    .main-img{
+        width: 100%;
+        height:max-content;
+        border-radius: 0px 10px 10px 0px;
+    }
+    .hero-section{
+        width: 40%;
+    }
+    .stats-container{
+        width: 80%;
+        margin: 3rem auto;
+        display: flex;
+    }
+}
+
+@media (min-width: 1190px){
+    
+}
